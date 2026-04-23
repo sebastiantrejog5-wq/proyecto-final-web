@@ -1,0 +1,111 @@
+body{
+font-family: Arial;
+margin:0;
+background:#fff8f8;
+}
+
+header{
+background:#8B3A62; 
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffd9e6;
+}
+
+.contenedor{
+display:flex;
+justify-content:space-around;
+padding:30px;
+flex-wrap:wrap;
+}
+
+.productos{
+width:55%;
+}
+
+.producto{
+background:white;
+padding:20px;
+margin:20px;
+border-radius:15px;
+box-shadow:0 0 12px rgba(139,58,98,.30);
+text-align:center;
+border:2px solid #e7c4d3;
+}
+
+.producto img{
+width:150px;
+height:150px;
+}
+
+.producto h3{
+color:#8B3A62;
+}
+
+button{
+background:#A64D79;
+color:white;
+padding:10px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#7a3559;
+}
+
+.carrito{
+width:35%;
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 12px rgba(139,58,98,.30);
+border:2px solid #e7c4d3;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-bottom:20px;
+}
+
+th{
+background:#f3d7e2;
+color:#5c1f3d;
+}
+
+th,td{
+border:1px solid #d8aebe;
+padding:10px;
+text-align:center;
+}
+
+input[type=button]{
+background:#8B3A62;
+color:white;
+padding:12px;
+border:none;
+border-radius:8px;
+}
+
+input[type=button]:hover{
+background:#6f2f4f;
+}
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:30px;
+background:#f3d7e2;
+}
